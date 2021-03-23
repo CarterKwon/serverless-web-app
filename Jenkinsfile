@@ -12,9 +12,6 @@ pipeline {
         cron('H * * * *') // run once every hour
     }
     
-    environment {
-    }
-
     stages {
         stage('configure') {
             steps {
